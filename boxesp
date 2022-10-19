@@ -32,7 +32,7 @@ _G.DefaultSettings = false   -- If set to true then the boxes script would run w
 _G.TeamCheck = false   -- If set to true then the script would create boxes only for the enemy team members.
 
 _G.BoxesVisible = true   -- If set to true then the boxes will be visible and vice versa.
-_G.LineColor = Color3.fromRGB(255, 80, 10)   -- The color that the boxes would appear as.
+_G.LineColor = Color3.fromRGB(255, 0, 0)   -- The color that the boxes would appear as.
 _G.LineThickness = 1   -- The thickness of the boxes.
 _G.LineTransparency = 0.7   -- The transparency of the boxes.
 _G.SizeIncrease = 1   -- How much the box's size is increased (The size is multiplied by the value of this variable). (1 is default, anything more then 2 is not recommended) <float> / <int>
@@ -270,7 +270,7 @@ end
 if _G.DefaultSettings == true then
     _G.TeamCheck = false
     _G.BoxesVisible = true
-    _G.LineColor = Color3.fromRGB(0, 255, 0)
+    _G.LineColor = Color3.fromRGB(255, 0, 0)
     _G.LineThickness = 1
     _G.LineTransparency = 0.5
     _G.SizeIncrease = 1.5
